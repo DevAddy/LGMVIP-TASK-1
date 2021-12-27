@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>OhFood!</title>
+    <link rel="icon" href="img/ticon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#hero-section"> OhFood </a>
+
+      <navbar class="navbar">
+        <ul class="navbar nav-item-list">
+          <li><a class="nav-item" href="#howitworks">How it works</a></li>
+          <li><a class="nav-item" href="#reviews">Reviews</a></li>
+          <li><a class="nav-item" href="#pricing">Pricing</a></li>
+          <li><a class="nav-item nav-cta" href="#order">Order &rarr;</a></li>
+        </ul>
+      </navbar>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Why <span style="color: #c03232">starve</span> when you have
+              us<span style="color: #c03232">.</span>
+            </h1>
+            <p class="hero-description">
+              Discover local, on-demand delivery or Pickup from restaurants,
+              nearby grocery and convenience stores, and more.
+            </p>
+            <a href="#order" class="hero-btn btn-start">Order Now</a>
+
+            <a href="#howitworks" class="hero-btn btn-learn">How we do it &darr;</a>
+          </div>
+
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.jpg type="image/jpg" />
+
+              <img
+                src="img/hero.jpg"
+                class="hero-img"
+                alt="Man Picking Up food for Delivery"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section" id="howitworks">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">How to Get a Fresh Meal</h2>
+        </div>
+
+        <div class="processes">
+          <card class="process">
+            <ion-icon name="restaurant-outline" class="process-icon"></ion-icon>
+            <p class="process-description">
+              Choose from a large selection of restaurants.
+            </p>
+          </card>
+          <!-- <card class="process">
+            <ion-icon name="person-add-outline" class="process-icon"></ion-icon>
+            <p class="process-description">
+              Enter Address, Add Payment Details
+            </p>
+          </card> -->
+          <card class="process">
+            <ion-icon name="bicycle-outline" class="process-icon"></ion-icon>
+            <p class="process-description">
+              A OhFood partner will pick your order for you
+            </p>
+          </card>
+          <card class="process">
+            <ion-icon name="home-outline" class="process-icon"></ion-icon>
+            <p class="process-description">Receive your order hot and fresh.</p>
+          </card>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <span class="subheading">Reviews</span>
+          <h2 class="heading-secondary">
+            What our customers have to say about us
+          </h2>
+
+          <div class="review-box">
+            <div class="author">
+              <div class="author-img">
+                <img
+                  class="img-author"
+                  src="img/review-1.jpg"
+                  alt="Milton Austin"
+                />
+              </div>
+              <div class="author-name">
+                <p class="name">Milton Austin</p>
+                <p class="job">Sales Manager</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <h2 class="review-heading">Complete Experience!</h2>
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <p class="description">
+                Always exceptionally well. OhFood has always been my go to
+                partner for food delivery. Generous discounts are always there
+                which also help add a little bit of joy in everyday meals.
+              </p>
+            </div>
+
+            <div class="author">
+              <div class="author-img">
+                <img
+                  class="img-author"
+                  src="img/review-2.jpg"
+                  alt="Amy Greene"
+                />
+              </div>
+              <div class="author-name">
+                <p class="name">Amy Greene</p>
+                <p class="job">Professor</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <h2 class="review-heading">Food Ordering Made Easy.</h2>
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <p class="description">
+                OhFood is one of the best platforms that offers an easy user
+                interface for ordering food. You can find almost all the
+                prominent food places in your locality on it. One is the best
+                features is the option where you can choose our food accordingly
+                by applying filters - filter by rating, filter by type
+              </p>
+            </div>
+
+            <div class="author">
+              <div class="author-img">
+                <img
+                  class="img-author"
+                  src="img/review-3.jpg"
+                  alt="Luke Harper"
+                />
+              </div>
+              <div class="author-name">
+                <p class="name">Luke Harper</p>
+                <p class="job">Student</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <h2 class="review-heading">A Lifesaver</h2>
+              <span class="rating">⭐⭐⭐⭐⭐</span>
+              <p class="description">
+                It's a very good app for students. It's helpful to eat food from
+                any restaurant happily. The and attitude of partners is really
+                great. They are kind and have more patience regarding delivery.
+                Overall a good app to go with.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">Discover how can you save even more</h2>
+        </div>
+
+        <div class="cards">
+          <div class="price-card">
+            <div class="card-container">
+              <h3 class="plan-title">Pro</h3>
+              <span class="price">$5</span>
+              <ul class="plan-feature">
+                <li>Upto 15% OFF on delivery</li>
+                <li>Additional discounts on orders</li>
+                <li>Faster Deliveries</li>
+                <li>X</li>
+              </ul>
+              <a href="#" class="nav-item nav-cta">Join</a>
+            </div>
+          </div>
+
+          <div class="price-card card-pro-plus">
+            <div class="card-container">
+              <h3 class="plan-title">Pro+</h3>
+              <span class="price">$10</span>
+              <ul class="plan-feature">
+                <li>All Benefits of Pro +</li>
+                <li>Free Delivery, Applicable on all Orders</li>
+                <li>Upto 30% OFF on all deliveries</li>
+                <li>Discounts on both Delivery & Dining</li>
+              </ul>
+              <a href="#" class="nav-item nav-cta">Join</a>
+            </div>
+          </div>
+        </div>
+        <p class="terms">Prices per month inclusive of all taxes.</p>
+      </section>
+
+      <section class="form-section" id="order">
+        <div class="container">
+          <div class="form-box">
+            <div class="form-title">
+              <h2 class="heading-secondary">Get your first meal delivered for free.</h2>
+
+              <form class="sign-up-form" name="sign">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input id="full-name" type="text" placeholder="Enter your Full Name"
+                  name="full-name" required />
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" placeholder="Enter your Email-Id"
+                  name="email" required />
+                </div>
+
+                <div>
+                  <p class="announcement">You will receive a mail within minutes of sign up with a special code for your free delivery order</p>
+                </div>
+
+                <button class="btn-sign-up">Join Now</button>
+              </form>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            OhFood
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by OhFood, Inc.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Cupertino, California, USA
+            </p>
+            <p>
+              <a class="footer-link" href="tel:000-800-100-9009">000 800 100 9009</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@ohfood.com"
+                >hello@ohfood.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <div class="sitemap">
+          <p class="footer-heading site">Sitemap</p>
+          <nav class="footer-nav">
+            <ul class="foot-nav">
+              <li><a class="foot-item" href="#howitworks">How it works</a></li>
+              <li><a class="foot-item" href="#reviews">Reviews</a></li>
+              <li><a class="foot-item" href="#pricing">Pricing</a></li>
+              <li><a class="foot-item" href="#order">Order</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
